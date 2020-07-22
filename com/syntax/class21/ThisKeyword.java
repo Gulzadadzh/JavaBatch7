@@ -16,6 +16,6 @@ public class ThisKeyword {
 		// checks sum of local variables
 		System.out.println(a+b);
 		//how to get sum of instance variables?
-		System.out.println(this.a+this.b);
+		System.out.println(this.a+this.b);//
 	}
 }

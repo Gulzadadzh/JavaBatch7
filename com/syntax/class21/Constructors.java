@@ -12,7 +12,7 @@ public class Constructors{
 		this(12);  // IF NEED TO MAKE A CALL MUST BE A 1 STATEMENT INSIDE THE CONSTRUCTOR 
 		this.word=word;
 		System.out.println("I am a parameterized constructor with str= "+word);
-		// this() 
+		// this(); CE: BECAUSE THIS MUST A 1 LINE
 		}
 	
 	public Constructors(int num){
@@ -22,7 +22,8 @@ public class Constructors{
 	public Constructors(int num, String word){
 		System.out.println("I am constructor with 2 parameter = "+num+" and "+word);
 	}
-	
+	//public ConsTructors(String str){ //CE;we cannot have duplicate constructors
+	//System.out.println("I am constructor with 1 parameter ="+num);
 	
 	public static void main(String[] args) {
 		Constructors obj= new Constructors("Java");

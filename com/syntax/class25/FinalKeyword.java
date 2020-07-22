@@ -4,7 +4,7 @@ public class FinalKeyword {
 
 	public static String str="Hello";
 	
-	public static final String USERNAME ="Admin";
+	public static final String USERNAME ="Admin";//final var MUST be initialized
 	
 	public final String PASSWORD ="Admin 123";
 	

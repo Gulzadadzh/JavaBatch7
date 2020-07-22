@@ -1,6 +1,8 @@
 package com.syntax.class20;
 
 public class USA {
+	
+	//define 2 variables for state and capital and have a
 
 	public static String country;
 	String state;

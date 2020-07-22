@@ -5,7 +5,7 @@ public class StudentTest {
 	String name ;
 	int mathGrade, scinceGrade, historyGrade;
 	
-	Student (String studentName, int studentMathGrade, int studentScinceGrade, int studentHistoryGrade){
+	StudentTest (String studentName, int studentMathGrade, int studentScinceGrade, int studentHistoryGrade){
 	name=studentName;
 	mathGrade=studentMathGrade;
 	scinceGrade=studentScinceGrade;
