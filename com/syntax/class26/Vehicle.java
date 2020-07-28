@@ -30,7 +30,7 @@ public abstract class Vehicle {
 	
 	//can we make abstract class as Java? NO
 			
-	//can we make abstract class as private? 
+	//can we make abstract class as private? NO
 }
 abstract class Car extends Vehicle{
 	

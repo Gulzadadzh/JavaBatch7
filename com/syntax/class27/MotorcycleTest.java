@@ -15,6 +15,8 @@ public class MotorcycleTest {
 		
 		m.breaking();
 		m.driving();
+		//Motorcycle.DRIVE="not safe";CE: cannot change value of final variable
+		System.out.println(Motorcycle.DRIVE);//static variable accessible throur class name
 	
 		System.out.println("----Object of Drivable type-----");
 		
@@ -22,7 +24,7 @@ public class MotorcycleTest {
 		
 		d.breaking();
 		d.driving();
-		
+		System.out.println(Drivable.DRIVE);
 		
 		
 		

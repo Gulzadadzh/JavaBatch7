@@ -24,4 +24,8 @@ abstract class Motorcycle implements Drivable{ //abstract class
 		System.out.println("Bikes can break");
 	}
 }
-
+class Vehicle {
+	public void operateVehicle() {
+		System.out.println("To operate any vehicle we need to have driver lisence");
+	}
+}
