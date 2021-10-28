@@ -20,10 +20,10 @@ public class NestingElseIf {
 				System.out.println("F, You failed!");
 			}
 			
-			}else {
+			//}else {
 				System.out.println("Please finish your quiz");
 			
 			}
 
 	  }
-  }
+  //}

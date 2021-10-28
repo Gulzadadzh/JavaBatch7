@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Homework2 {
 	public static void main(String[] args) {
 		
-	}
-	// Write a program to ask a user to enter item they want to buy
+			// Write a program to ask a user to enter item they want to buy
 			// and the price of that item.
 			// Every time user enters money accumulate the amount
 			// and tell the user how much is left to pay off.
@@ -25,23 +24,6 @@ public class Homework2 {
 			System.out.println("Please enter the price:");
 			double price = scan.nextDouble();
 
-			do {
-				System.out.println("Please give me the payment!");
-				money = scan.nextDouble();
-				totalAmount += money;
-
-				if (totalAmount < price) {
-					remainingBalance = price - totalAmount;
-					System.out.println("You should give this much more money: " + remainingBalance);
-				} else if (totalAmount > price) {
-					change = totalAmount - price;
-					System.out.println("Your change is " + change);
-				} else {
-					System.out.println("Maan, you gave exactly what you owed me!");
-				}
-
-			} while (totalAmount < price);
-
-			System.out.println("Thank you for shopping!");
-}
-}
+	}
+	}
+		

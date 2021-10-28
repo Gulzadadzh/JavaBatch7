@@ -64,7 +64,15 @@ public class Objects {
 	 System.out.println(car4.make+" "+ car4.color);
 	 
 	 
-	 
+	 Car car5=new Car();
+	 car5.make="Moskvich";
+	 car5.color="white";
+	 car5.year=1995;
+	 System.out.println(car5.make+" "+ car5.color);
+	  
+	 car5.reverse();
+	 car5.drive();
+	 car5.transportPeople();
 	 
 	 
 	 

@@ -15,22 +15,22 @@ public class ScannerLogicalOperators {
 		
 		if(age >=0 && age<=3) {
 			
-			System.out.println("You are baby");
+			System.out.println("You are a baby");
 		}else if (age >=4 && age <= 5) {
 			
-			System.out.println("You are kid");
+			System.out.println("You are a kid");
 		
 		}else if (age >= 6 && age <=12) {
 			
-			System.out.println("You are child");
+			System.out.println("You are a child");
 		
 		}else if (age >= 13 & age <=19) {
 			
-			System.out.println("You are teenager");
+			System.out.println("You are a teenager");
 		
 		}else if (age >= 20 && age <= 64) {
 			
-			System.out.println("You are adult");
+			System.out.println("You are a adult");
 		}else if (age>=65) {
 			
 			
