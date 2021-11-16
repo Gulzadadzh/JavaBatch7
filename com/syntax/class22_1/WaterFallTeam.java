@@ -9,7 +9,7 @@ public class WaterFallTeam extends Employee{
 	}
 	public static void main(String[] args) {
 		WaterFallTeam wt=new WaterFallTeam();
-		WaterFallTeam.companyName="Instagramm";
+		//WaterFallTeam.companyName="Instagramm";
 		wt.FullName="John Snow";//protected var is accessible to different class through inheritance class
 		
 		

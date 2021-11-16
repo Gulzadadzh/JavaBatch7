@@ -8,13 +8,13 @@ public class EmployeeTest {
 	public static void main(String[] args) {
 		
 		Employee emp=new Employee();
-		Employee.companyName="Google";
+		//Employee.companyName="Google";
 		
 		//new ScrumTeam();
 		//new Cat();
 		
 		WaterFallTeam wt=new WaterFallTeam();
-		WaterFallTeam.companyname="Amazon";
+		//WaterFallTeam.companyname="Amazon";
 		
 		
 		
@@ -22,4 +22,4 @@ public class EmployeeTest {
 
 	
 }
-}
+//}

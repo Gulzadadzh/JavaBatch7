@@ -15,8 +15,8 @@ public class DifferentMethodsTest {
 		
 		
 		//call method printAnyWord
-		obj.printAnyWord("I love you", 3);
-		obj.printAnyWord(5, "Bye");
+		//obj.printAnyWord("I love you", 3);
+		//obj.printAnyWord(5, "Bye");
 		
 		
 		// call method isHungry

@@ -12,10 +12,10 @@ public class DifferentMethods {
 		
     //create that will print any word any number of times
 		
-	void printAnyWord(String word, int times) {
+	//void printAnyWord(String word, int times) {
 		
 		for(int i=0; i<times; i++) {
-			System.out.println(word);
+		//	System.out.println(word);
 		}
 	}
 		
@@ -44,4 +44,3 @@ public class DifferentMethods {
 
 	}
 
-}

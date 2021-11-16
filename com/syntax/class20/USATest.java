@@ -4,7 +4,7 @@ public class USATest {
 
 	USA state1 = new USA ("Virgina", "Richmond");
 	
-	state1.display();
+	//state1.display();
 	
 	
 }

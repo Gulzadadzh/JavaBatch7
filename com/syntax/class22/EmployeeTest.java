@@ -20,9 +20,9 @@ public class EmployeeTest {
 	obj2.getPaid();
 	obj2.work();
 	
-	obj2.ceremonies="Srum meetings";
-	obj2.attendMeetings();
-	obj2.workBuildingSoft();
+	//obj2.ceremonies="Srum meetings";
+	//obj2.attendMeetings();
+	//obj2.workBuildingSoft();
 	
 	obj2.communicate();
 	

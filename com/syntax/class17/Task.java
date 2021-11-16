@@ -13,25 +13,25 @@ public class Task {
 		
 //Write a method to return whether given number is prime or not?
 			
-			boolean isPrime(int a) {
-			boolean  prime=true;
+			//boolean isPrime(int a) {
+		//	boolean  prime=true;
 				
-				if(a > 1) {
-					for(int i=2; i<=a/i; i++) {
-						if(a%i==0) {
-							prime =false;
-							break;
+				//if(a > 1) {
+					//for(int i=2; i<=a/i; i++) {
+						//if(a%i==0) {
+						//	prime =false;
+						//	break;
 							
-						}
-					}
-				}else {
-					prime=false;
+					//	}
+				//	}
+				//}else {
+				//	prime=false;
 				}
-				return prime;
+			//	return prime;
 				
-			}
+			//}
 		
 		
 		}
 
-}
+//}
