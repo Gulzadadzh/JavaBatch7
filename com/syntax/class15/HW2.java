@@ -22,7 +22,7 @@ public class HW2 {
 		
 		if(gender.equals("boy")) {
 			System.out.println("Congratulations, It is a boy");
-			babyName=name1.substring(0, 3)+ name2.substring(0,  2);
+			babyName=name1.substring(0, name1.length()/2)+ name2.substring(name2.length()/2);
 			
 		}else if (gender.contentEquals("girl")){
 			System.out.println("Congratulations, It is a girl ");

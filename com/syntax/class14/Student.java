@@ -2,7 +2,7 @@ package com.syntax.class14;
 
 public class Student {
 	
-	String name, lastName, school;
+	String name, lastName, school;  
 	char grade; // name of the variable  often is noun
 	int studentId;
 	

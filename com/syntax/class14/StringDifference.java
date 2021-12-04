@@ -12,13 +12,19 @@ public class StringDifference {
 	System.out.println(name1);
 
 	if(name.equals(name1)) {
-			System.out.println("Strings are equal");
+			System.out.println("Strings are equal using equals method");
 			
 	}
 	System.out.println("----------");
 	
 	if(name==name1) {
 		System.out.println("Strings are equal using == operator");
+	}
+	
+	String name2 ="Madeeha";
+	
+	if(name == name2) {
+		System.out.println("2 strings are equal");
 	}
 			
 			

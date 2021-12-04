@@ -21,7 +21,7 @@ public class StringMethodsContinue {
 		System.out.println("-------------.startsWith() method----------");
 		
 		String drink="Welcome students";
-		boolean starts=str.startsWith("Welcome");
+		boolean starts=drink.startsWith("Welcome");
 		System.out.println(starts);
 		
 		System.out.println("-------------.endWith() method----------");
@@ -29,7 +29,7 @@ public class StringMethodsContinue {
 		boolean ends=drink.endsWith("a");
 		System.out.println(ends);
 		
-		//drimk.startWith('w'); CE: we need to check if it starsts with specified String, cannot be just char
+		//drimk.startWith('w'); CE: we need to check if it starts with specified String, cannot be just char
 		String str1="Hello Muhammad";
 		String str2="Hello Bulat";
 		
@@ -69,7 +69,7 @@ public class StringMethodsContinue {
 			System.out.println("Test executed not on chrome browser");
 			
 			
-			
+			 
 			
 			
 		
