@@ -36,6 +36,26 @@ public class HW2 {
 		scan.close();
 		
 
+		String day ="Sunday";
+		//String  --> char --> sorry cannot call String method because you are not a String 
+		//day.charAt(1).toUpperCase();
+		
+		             //String --> String --> char
+		char letter=day.toUpperCase().charAt(1);
+		
+	
+		int lengthOfNewDay= day.substring(3).toUpperCase().length();
+		System.out.println(lengthOfNewDay);
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
 	}
 
 }

@@ -15,7 +15,7 @@ public class Task1 {
 		System.out.println();
 		System.out.println("----------------");
 		
-		
+		// one of the IQ
 		String str3= "My home address 6545 east str 15220 #$%";
 		str3=str3.replaceAll("[A-Za-z]", "");
 		System.out.println(str3.length());

@@ -24,7 +24,7 @@ public class StringImmutable {
 		String str3="Hello";
 		String str4="Hello";
 		
-		str.toUpperCase();  //completely new string Object is getting creared
+		str.toUpperCase();  //completely new string Object is getting created
 		System.out.println("Value of str2 if we did not assign it=" + str2);
 		str2 =str2.toLowerCase();
 		

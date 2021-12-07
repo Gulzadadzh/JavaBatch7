@@ -18,8 +18,8 @@ public class ReplaceFunction {
 		System.out.println(me);
 		
 		String fromApplication="Phone number is 1234567890";
-		fromApplication=fromApplication.replaceAll("[A-Z]", "" );
-		System.out.println(fromApplication);
+		fromApplication=fromApplication.replaceAll("[A-Z]", "" );  
+		System.out.println(fromApplication);   // hone number
 		
 		String anotherWay="HellodRTYHBVFNBGHJNBG876544567";
 		anotherWay=anotherWay.replaceAll("[A-Za-z]", "");
