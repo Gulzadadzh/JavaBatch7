@@ -1,4 +1,4 @@
-package com.syntax.class04;
+ package com.syntax.class04;
 
 public class MoreNestedIf {
 	public static void main(String[] args) {

@@ -6,7 +6,7 @@ public class BooleanIfCondition {
 		boolean flag = true;
 		
 		
-		if (flag == true) {
+		if (flag) {
 			System.out.println("Hi");
 		}else {
 			System.out.println("Bye");

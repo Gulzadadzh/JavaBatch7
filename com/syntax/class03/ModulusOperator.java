@@ -1,4 +1,4 @@
-package com.syntax.class03;
+ package com.syntax.class03;
 
 public class ModulusOperator {
 

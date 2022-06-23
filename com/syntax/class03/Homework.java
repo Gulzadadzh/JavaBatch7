@@ -28,6 +28,7 @@ public class Homework {
 		
 		System.out.println("The division of 2 numbers " + num1 + " and " + num2
 				+ " is equal to " + div );
+		
 		System.out.println("=============");
 		
 		double number = 6.9;

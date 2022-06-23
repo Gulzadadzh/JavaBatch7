@@ -13,11 +13,18 @@ public class ScannerDemo {
 		System.out.println("------------------");
 		System.out.println(text);
 		
-		//let me read an integer (age
+		//let me read an integer (age)
 		 
 		System.out.println("Enter age!!!! ");
 		int age1 = scan.nextInt();
 		System.out.println("The age that you entered is " + age1);
+		
+		
+		
+	
+		
+		
+		
 		
 	}
 }

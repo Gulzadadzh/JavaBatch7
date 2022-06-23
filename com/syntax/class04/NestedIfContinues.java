@@ -5,7 +5,7 @@ public class NestedIfContinues {
 	public static void main(String[] args) {
 
 		boolean allergies = true;
-		boolean peanut = true;
+		boolean peanut = false;
 		boolean lactose = false;
 		boolean bee= true;
 		

@@ -2,14 +2,14 @@ package com.syntax.class04;
 
 public class Task1 {
 
-	private static final boolean Diploma = false;
+	//private static final boolean Diploma = false;
 
 	public static void main(String[] args) {
 		
 		boolean isDiploma=true;
 		double gpa=3.92;
 		
-		if (Diploma) {
+		if (isDiploma) {
 			
 			System.out.println("Congratulations!");
 			

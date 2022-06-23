@@ -18,12 +18,15 @@ public class NestedIf {
 			System.out.println("Bye");
 		} else {
 			System.out.println("It is not morning!");
+
+			if (time < 18) {
+				System.out.println("Good afternoon!");
+			} else {
+				System.out.println("Good evening!");
+			}
 		}
-		if (time < 18) {
-			System.out.println("Good afternoon!");
-		} else {
-			System.out.println("Good evening!");
-		}
+
+		System.out.println("Vika has no question");
 	}
 
 }
