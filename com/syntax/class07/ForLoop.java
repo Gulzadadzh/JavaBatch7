@@ -10,7 +10,7 @@ public class ForLoop {
 			System.out.println(a);
 			a++;
 		}
-		System.out.println("----------");
+		
 		// When you know how many times it will execute, we should go with for loop
 		for (int num = 1; num <= 5; num++) {
 			System.out.println(num);
