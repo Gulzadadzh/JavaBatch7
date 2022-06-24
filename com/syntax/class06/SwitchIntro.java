@@ -56,6 +56,9 @@ public class SwitchIntro {
 		
 		}
 	System.out.println("Today is " + dayName);
+	
+	
+	
 	}
 	
 }

@@ -11,7 +11,7 @@ public class Homework1 {
 		System.out.println("Please enter birth of your month");
 		String month = scan.nextLine();
 		
-		String season;
+		String season = null;  //"unknown"
 		
 		if (month.equals("December") || month.equals("January") || month.equals("February")) {
 			season = "Winter";
@@ -25,8 +25,8 @@ public class Homework1 {
 		} else if (month.equals("September") || month.equals("Ocober") || month.equals("November")) {
 			season = "Autumn";
 
-		}else {
-			season= "unknown";
+		//}else {
+		//	season= "unknown";
 		}
 		
 		System.out.println("You were born in " + season);
