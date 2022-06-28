@@ -4,14 +4,38 @@ public class Homework {
 
 	public static void main(String[] args) {
 
-		int total = 1;
-		for (int k = 1; k <= 4; k++) {
-		total =total +k;
-		}
-				System.out.println(total);
-			
+		/**
+		for (int i = 100; i >= 1; i--) {
 
-		
+			System.out.println(i);
+
+		}
+		*/
+
+		System.out.println("-----------------");
+
+		for (int i = 3; i >= 1; i--) {
+
+			System.out.print(i + ",");
+
+		}
+
+		/**
+		System.out.println("-----------------");
+
+		for (int b = 20; b <= 50; b++) {
+			if (b % 2 == 1) {
+				System.out.println(b);
+
+			}
+			
+			System.out.println("-----------------");
+
+			for (int i = 20; i < +50; i += 2) {
+				System.out.println(i);
+			}
+		}
+	*/
 
 	}
 }
