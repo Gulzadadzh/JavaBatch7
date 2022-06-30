@@ -14,7 +14,6 @@ public class TringlePattern {
 		System.out.println();
 		}
 		
-		System.out.println("---------------");
 		
 		
 		for(int r=4; r>=1; r--) {
