@@ -3,18 +3,15 @@ package com.syntax.class11;
 public class Task3 {
 
 	public static void main(String[] args) {
-		String[] countries= {"Kyrgyzstan", "Uzbekistan", "Tadjikistan", "Kazakstan", "China"};
-		//Ellion way
-		String[] capitalCities= {"Bishkek","Tashkent","Dushanbe","Astana","China"};
-		
-		for (int i=0; i<countries.length; i++)  {
-		String country=countries[i];
-		String city=capitalCities[i];
-		System.out.println("The capital city of "+ country + " is "+ city);
-			
-			
-			
-			
+		String[] countries = { "Kyrgyzstan", "Uzbekistan", "Tadjikistan", "Kazakstan", "China" };
+		// Ellion way
+		String[] capitalCities = { "Bishkek", "Tashkent", "Dushanbe", "Astana", "China" };
+
+		for (int i = 0; i < countries.length; i++) {
+			String country = countries[i];
+			String city = capitalCities[i];
+			System.out.println("The capital city of " + country + " is " + city);
+
 		}
 //		for (int i=0; i<countries.length; i++)  {
 //		
@@ -64,10 +61,26 @@ public class Task3 {
 //				}
 //			}
 //		
-//		
-//		
+//		String[] countries= {"Kyrgyzstan", "Kazakstan", "Uzbekistan"};
+		System.out.println("-----------");
+		
+		String[] countries1= {"Kyrgyzstan", "Kazakstan", "Uzbekistan"};
+		for(int i=0; i<countries1.length; i++) {
+			if(countries1[i].equals("Kyrgyzstan")) {
+				System.out.println("The capitol of "+countries1[i]+" is Bishkek");
+			}else if(countries1[i].equals("Kazakstan")) {
+				System.out.println("The capitol of "+countries1[i]+" is Almaty");
+			}else if(countries1[i].equals("Uzbekistan")) {
+				System.out.println("The capitol of "+countries1[i]+" is Tashkent");
+			}else{
+				System.out.println(" ");
+			}
+			//System.out.println(countries[i]);
+		}
 		
 		
+//		
+
 	}
 
 }
