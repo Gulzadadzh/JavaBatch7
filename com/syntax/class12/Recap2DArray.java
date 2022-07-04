@@ -17,7 +17,7 @@ public class Recap2DArray {
 	
 		String element=animals[1][1];
 		System.out.println(element);
-		System.out.println("========");
+		System.out.println("-----Using for loop---------");
 		
 		for (int i = 0; i < animals.length; i++) {
 			for (int j = 0; j < animals[i].length; j++) {
@@ -26,8 +26,14 @@ public class Recap2DArray {
 			}
 			System.out.println();
 		}
-	
-		
+		System.out.println("-----Using enhanced for loop---------");
+
+		for (String[] array : animals) {
+			for (String animal : array) {
+				System.out.print(animal +" ");
+			}
+			System.out.println();
+		}
 		
 		
 		
