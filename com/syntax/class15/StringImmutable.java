@@ -17,7 +17,7 @@ public class StringImmutable {
 		
 		
 		String str1=new String("Hello");
-		str1.toUpperCase();
+		str1=str1.toUpperCase();
 		System.out.println(str1);
 		
 		String str2="Hello";

@@ -1,31 +1,20 @@
 package Recap;
 
-import java.util.Scanner;
-
 public class Recap {
 
 	public static void main(String[] args) {
 
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Please enter a user name");
-		String userName = scan.nextLine();
+		int[] numbers = { 23, 56, 73, 16, 80, 70, 39 };
 
-		System.out.println("Please enter password");
-		String password = scan.nextLine();
-
-		if (userName.isEmpty() || password.isEmpty()) {
-			System.out.println("Username and Password cannot be empty");
-		} else {
-
-			if (password.length() > 8) {
-				if (password.contains(userName)) {
-					System.out.println("");
-				} else {
-					System.out.println("Password is too short");
-
-				}
+		int largest=numbers[0];
+		
+		for(int i=0; i<numbers.length; i++) {
+			if(numbers[i] > largest) {
+				largest= numbers[i];
+				
+				
 			}
-
 		}
+		System.out.println(largest);
 	}
 }
