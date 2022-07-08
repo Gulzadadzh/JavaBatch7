@@ -10,8 +10,8 @@ public class TaskTest {
 		System.out.println(email);
 		
 		
-		//boolean prime=t.isPrime(2);
-		//System.out.println(prime);
+		boolean prime=t.isPrime(4);
+		System.out.println(prime);
 
 		Student student =new Student();
 		
