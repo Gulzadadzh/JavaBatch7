@@ -6,12 +6,13 @@ public class EmployeeTest {
 		
 	
 	ScrumTeam obj1=new ScrumTeam();
+	ScrumTeam.companyName="Facebook";
 	obj1.salary=70000;
-	obj1.getPaid();
 	obj1.work();
+	obj1.getPaid();
 	
-	obj1.attendMeetings();
 	obj1.ceremonies="Srum meetings";
+	obj1.attendMeetings();
 	obj1.workBuildingSoft();
 	
 	ProductOwner obj2=new ProductOwner();
