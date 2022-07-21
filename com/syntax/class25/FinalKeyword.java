@@ -20,7 +20,7 @@ public class FinalKeyword {
 		FinalKeyword fk=new FinalKeyword();
 		//fk.PASSWORD ="user123"; CE: variable is final
 		
-		System.out.println(fk.PASSWORD);
+    	System.out.println(fk.PASSWORD);
 		
 	}
 	public void hello() {

@@ -1,4 +1,4 @@
-package com.syntax.class24;
+ package com.syntax.class24;
 
 public class Bank {
 	

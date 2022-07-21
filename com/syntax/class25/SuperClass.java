@@ -11,7 +11,7 @@ class Subclass extends SuperClass{
 	
 	
 	//this process called method hiding
-	//@Override
+	//@Override --> confirms that we are overriding 
 	protected  static void enjoy() {
 		System.out.println("I anjoy everyday");
 	}

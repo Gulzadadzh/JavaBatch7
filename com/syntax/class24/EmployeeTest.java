@@ -9,7 +9,7 @@ public class EmployeeTest {
 		
 		Contractor ct=new Contractor();
 		ct.hourlyRate=50;
-		ct.getPaid(); //overridding method from child class will get executed
+		ct.getPaid(); //Overriding method from child class will get executed
 		
 		FullTimeEmployee ft=new FullTimeEmployee();
 		ft.salary=8765;
