@@ -25,12 +25,13 @@ public abstract class Vehicle {
 	
 	public abstract void openTrunk();
 	
-	//can we make abstract method as static? NO
+	//can we make abstract method as static?    NO
 
 	
-	//can we make abstract class as Java? NO
+	//can we make abstract class as final?      NO
 			
-	//can we make abstract class as private? NO
+	
+	//can we make abstract class as private?    NO
 }
 abstract class Car extends Vehicle{
 	

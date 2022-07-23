@@ -4,7 +4,7 @@ public interface Drivable { //interface is collection of public abstract methods
 	
 	String DRIVE ="Drive safe";
 	
-	//int maxSpeed; cannot have instance variables because compiler adds PSF
+	//int maxSpeed; cannot have instance variables because compiler adds PSF(public static final)
 	
 	void driving(); //by default compiler adds public abstract to methods
 

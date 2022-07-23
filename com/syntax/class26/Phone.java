@@ -1,4 +1,4 @@
-package com.syntax.class26;
+ package com.syntax.class26;
 
 public abstract class Phone {
 
