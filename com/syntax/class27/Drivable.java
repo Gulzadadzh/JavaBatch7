@@ -4,14 +4,15 @@ public interface Drivable { //interface is collection of public abstract methods
 	
 	String DRIVE ="Drive safe";
 	
-	//int maxSpeed; cannot have instance variables because compiler adds PSF(public static final)
+	//int maxSpeed; cannot have instance variables because compiler adds PSF(public static final  )
 	
 	void driving(); //by default compiler adds public abstract to methods
 
 	void breaking();
 	
 }
-abstract class Motorcycle implements Drivable{ //abstract class
+//we can extends ONLY 1 class but we can implement MULTIPLE interfaces
+abstract class Motorcycle extends Vehicle  implements Drivable{ //abstract class
 
 	public void driving() {
 		System.out.println("Motorcycle is driving");
