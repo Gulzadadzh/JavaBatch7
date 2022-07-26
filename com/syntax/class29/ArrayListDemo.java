@@ -24,7 +24,7 @@ public class ArrayListDemo {
 
 				System.out.println(alist);
 
-				alist.remove(3);//specifying index of element to remove
+				alist.remove(2);//specifying index of element to remove
 
 				System.out.println(alist);
 			}
