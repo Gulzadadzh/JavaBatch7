@@ -1,4 +1,4 @@
-package com.syntax.class30;
+ package com.syntax.class30;
 
 import java.util.ArrayList;
 
