@@ -7,7 +7,7 @@ public class MapIntro {
 
 		HashMap <Integer, String> hmap = new HashMap<>();
 		//storing objects inside map as a Key and value Pair
-		hmap.put(10, "John");//K+V=Entry
+		hmap.put(10, "John");//K+V=Entry (object)
 		hmap.put(11, "Jane");//K+V=Entry
 		hmap.put(12, "James");//K+V=Entry
 		

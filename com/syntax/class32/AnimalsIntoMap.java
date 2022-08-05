@@ -1,4 +1,4 @@
-package com.syntax.class32;
+ package com.syntax.class32;
 
 import java.util.Collection;
 import java.util.Iterator;
